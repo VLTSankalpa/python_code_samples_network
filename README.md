@@ -2,7 +2,11 @@
 
 A collection of Python Code Samples for Network Management.  Includes samples that leverage on-box libraries, as well as samples that use exposed external APIs (NETCONF/RESTCONF, SNMP, SSH, REST, etc).  Some examples make use of available SDKs.  
 
+<<<<<<< HEAD
 ### On-Box Examples
+=======
+# On-Box Examples
+>>>>>>> 38ca0b1e74dc247428379d785b54cfaadc77d723
 
 Many Cisco switches and routers provide an on-box Python Interpreter that can be leveraged to execute scripts and programs directly on end devices.  In addition to the interpreter, Python libraries are included that provide direct access to the underlying devices operations to execute CLI commands, or monitor for events.  
 
@@ -24,7 +28,7 @@ Here are few Python scripts that can interact with network elements using one of
 
 |  Code Sample  |  Description  |
 |  --- |  ---  |
-|  [Netmiko and CLI Example for Interface Management](/netmiko-interface-example)  |  These are a series of python scripts for retrieving, creating, deleting a Loopback Interface with Python.  | 
+|  [Netmiko and CLI Example for Interface Management](/netmiko-interface-example)  |  These are a series of python scripts for retrieving, creating, deleting a Loopback Interface with Python.  |
 |  [MIB Walk with Python](/snmp_entity)  |  In this example, we perform a MIB walk against a device leveraging the “netsnmp” library for Python.  |
 |  [NETCONF Connection with Python](/netconf_entity)  |  This example shows the basics of connecting to a device with NETCONF using the  “ncclient” library for Python.  |
 |  [Configure Interface IP Address with RESTCONF](/restconf_update_ipaddress)  |  In this example the newly ratified RESTCONF standard is used to configure the IP Address on an interface.  |
